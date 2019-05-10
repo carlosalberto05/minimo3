@@ -1,0 +1,520 @@
+.contenedor-principal{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+/* Header ------------------------------------------------------------------------ */
+.contedor-header{
+    
+    width: 100%;
+    height: 820px;
+}
+
+.bar-nav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 2.5%;
+}
+.enlaces{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2.5%;
+}
+.enlaces a{
+    text-decoration: none;
+    color: rgb(103,103,103);
+    font-size: 18px;
+}
+
+.img-principal{ 
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 500;
+   object-fit: cover;
+}
+
+/*  Section 1 ........................................................... */
+
+.section1{
+   
+    width: 100%;
+    height: 2600px;
+    display: flex;
+    flex-direction: row;
+}
+.section-txt-fotos{
+   
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.txt1-sec1{
+   
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajita-txt-sec1{
+    
+    width: 80%;
+    height: 90%;
+}
+
+.cajita-txt-sec1 h4{
+    color: rgb(194,194,194);
+    font-weight: inherit;
+    font-size: 15px;
+}
+
+.cajita-txt-sec1 h2{
+    color: rgb(76,76,76);
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.cajita-txt-sec1 p{
+    color: rgb(76,76,76);
+}
+
+.cajita-txt-sec1 strong{
+    color: black;
+}
+
+
+.img1-sec1{
+   
+    width: 100%;
+    height: 21.66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt2-italic{
+    
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.txt2-sec1{
+   
+    width: 100%;
+    height: 15%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+.section-blog{
+  
+    width: 30%;
+    height: 100%;
+}
+
+.card1{
+    
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conten-cardi{
+    
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ima-taza{
+   
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.txt-taza{
+   
+    width: 85%;
+    height: 30%;
+    font-size: 13px;
+    color: rgb(124,124,124);
+}
+.txt-taza h3{
+    font-size: 25px;
+    margin: 0;
+    font-weight: inherit;
+    color: rgb(72,72,72);
+}
+.social-taza{
+    
+    width: 85%;
+    height: 10%;
+   
+}
+.cajita-social{
+    
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cajita-social .fab{
+    color: rgb(166,166,166);
+    cursor: pointer;
+}
+
+.card2{
+  
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten-cardi2{
+   
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.conten-cardi2 h3{
+    
+    color: rgb(166,166,166);
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: inherit;
+    font-size: 16px;
+}
+
+.conten-cardi2 li{
+    color: rgb(73,73,73);
+    font-size: 17px;
+}
+
+.conten-cardi2 p{
+    font-size: 13px;
+    color: rgb(166,166,166);
+}
+
+
+.card3{
+    
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section 2 -------------------------------------------------- */
+
+.section2{
+    
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+   
+}
+.conten-sec2{
+    
+    width: 20%;
+    height: 30%;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.parraftx2{
+   
+    width: 30%;
+    height: 100%;
+    color: rgb(166,166,166);
+}
+.iconicos-t, .fab{
+    
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(166,166,166);
+    cursor: pointer;
+}
+
+/* section3 ------------------------------------------- */
+
+.section3{
+    background: rgb(245,245,245);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-sec3{
+    
+    width: 80%;
+    height: 15%;
+    color: rgb(163,163,163);
+    font-weight: inherit;
+    font-size: 15px;
+}
+.galeri3{
+    
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.galericard1{
+    
+    width: 30%;
+    height: 100%;
+}
+
+.galericard1 img{
+    width: 100%;
+    height: 65%;
+}
+.galericard1 h3{
+    margin: 0;
+    color: rgb(75,75,75);
+}
+
+/* Section4  --------------------------------------------------- */
+
+.section4{
+
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cajita-sec4{
+    width: 80%;
+    height: 100%;
+    display: flex;
+   
+}
+
+.users{
+    
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.circle1{
+  
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(188,188,188);
+}
+
+.comentarios{
+    
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.diez{
+  
+    width: 100%;
+    height: 21%;
+}
+.coment1{
+    
+    width: 100%;
+    height: 20%;
+    font-size: 14px;
+    color:rgb(76,76,76);
+
+}
+
+.coment1 h3{
+    font-size: 15px;
+    color: rgb(73,73,73);
+}
+
+.coment1 h4{
+    font-size: 13px;
+    font-weight: inherit;
+    color: rgb(188,188,188);
+}
+
+.caja-coment{
+  
+    width: 100%;
+    height: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-coment input{
+    width: 97%;
+    height: 75%;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: inherit;
+    padding-left: 20px;
+}
+
+.red-social{
+    
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.conteniendo-social{
+   
+    width: 35%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(196,196,196);
+    font-weight: inherit;
+}
+.loguitos{
+   
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.loguitos .fa-facebook-f{
+    color: rgb(72,72,72);
+}
+
+/* Footer -------------------------------------------------------- */
+
+
+.contenedor-footer{
+    background: rgb(240,240,240);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.condiciones{
+    
+    width: 50%;
+    height: 70%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.condiciones-caja{
+    width: 60%;
+    height: 90%;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.condiciones-caja a{
+    text-decoration: none;
+    color: rgb(21,21,21);
+    font-size: 17px;
+    font-weight: inherit;
+    font-style: italic;
+}
+
+.siguenos{
+    width: 50%;
+    height: 70%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.siguenos-caja{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(21,21,21);
+    font-size: 17px;
+    font-weight: inherit;
+    font-style: italic;
+}
+
+.siguenos-caja a{
+    text-decoration: none;
+}
+
+.siguenos-caja .fab{
+    text-decoration: none;
+    color:rgb(75,75,75);
+}
+
+.siguenos-caja .fab:hover{
+    text-decoration: none;
+    color:rgb(150, 156, 123);
+}
